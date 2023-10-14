@@ -1,0 +1,61 @@
+/* Estilos para los fondos */
+body {
+    background-color: #ffcc00; /* Amarillo */
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #ff9933; /* Naranja */
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    color: #fff; /* Texto en blanco */
+}
+
+/* Estilos para las secciones */
+section {
+    background-color: rgba(255, 204, 0, 0.8); /* Fondo amarillo con transparencia */
+    padding: 20px;
+    text-align: center;
+}
+
+#historia {
+    background-color: rgba(255, 153, 51, 0.8); /* Fondo naranja con transparencia */
+    color: #fff; /* Texto en blanco */
+}
+
+/* Estilos para enlaces */
+a {
+    color: #232120; /* Naranja */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #141313; /* Naranja más oscuro al pasar el ratón */
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: rgba(255, 204, 0, 0.8); /* Fondo amarillo con transparencia */
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    color: #101010; /* Naranja */
+}
+/* Estilos para la imagen en el encabezado */
+header img {
+    display: block; /* Para centrar la imagen horizontalmente */
+    margin: 0 auto; /* Para centrar la imagen horizontalmente */
+    max-width: 10%; /* Para que la imagen se ajuste al ancho del encabezado */
+    padding: 2px; /* Espaciado alrededor de la imagen */
+}
